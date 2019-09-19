@@ -28,7 +28,7 @@
 ## PetName - (PetType, PetBreed, PetDOB, OwnerPhone)
 ## PET Candidate Keys: PetName
 ## Is every determinant a candidate key?
-## YES—PetName is a candidate key—Normalization complete!
+## YES—PetName is a candidate key
 ## FINAL NORMALIZED REALTIONS:
 ## OWNER (OwnerPhone, OwnerLastName, OwnerFirstName, OwnerEmail)
 ## PET (PetName, PetType, PetBreed, PetDOB, OwnerPhone)
@@ -36,7 +36,7 @@
 ## OWNER (OwnerPhone, OwnerLastName, OwnerFirstName, OwnerEmail)
 ## PET (PetName, PetType, PetBreed, PetDOB, OwnerEmail)
 ## Functional Dependencies:
-## PetName  (PetType, PetBreed, PetDOB, OwnerEmail)
+## PetName - (PetType, PetBreed, PetDOB, OwnerEmail)
 ## PET Candidate Keys: PetName
 ## Is every determinant a candidate key?
 ## YES—PetName is a candidate key
